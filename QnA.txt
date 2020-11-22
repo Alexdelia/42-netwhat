@@ -6,7 +6,7 @@
 #    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/22 13:26:30 by adelille          #+#    #+#              #
-#    Updated: 2020/11/22 15:22:44 by adelille         ###   ########.fr        #
+#    Updated: 2020/11/22 17:01:43 by adelille         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,3 +57,46 @@ A-	Class A:
 Q.	What is TCP ?
 A-	Transmission Control Protocol, located in the Trasnport layer, it make
 	package of data and send it to the IP where it is reassemble to be used.
+
+Q.	What is UDP ?
+A-	Same as TCP but faster, often use for vidéo game
+
+Q.	What are the different layer of network ?
+A-	1.	Application:	End user layer:			HTTP, SSH, DNS
+	2.	Presentation:	Syntax layer:			IMAP, SSH, JPEG
+	3.	Session:		Synch and send to port:	API's, Sockets, WinSock
+	4.	Transport:		End-to-end connection:	TCP, UDP
+	5.	Network:		Packets:				IP, ICMP
+	6.	Data link:		Frames:					Ethernet, PPP, Switch, Bridge
+	7.	Physical:		Physical structure:		Fiber, Wireless, Repeater
+
+Q.	What is the OSI model ?
+A-	Open System Interconnection, the thing with 7 layers, ^
+
+Q.	What is the purpose of a DHCP server ?
+A-	A DHCP server dynamically assigns an IP address and other network
+	configuration parameters to each device on a network so they can
+	communicate with other IP networks. DHCP is and enhancement of an
+	older protcol called BOOTP. DHCP is an importatn part of the DDI
+	solution: (DNS-DHCP-IPAM)
+
+Q.	What is the purpose of DNS server ?
+A-	It translate names into IP address:
+	https://www.google.com = xxxxx (I don't find it, but DNS server of
+	google are 8.8.8.8)
+	It alse provides a list of mail servers which accept emails for each
+	domain name.
+
+Q.	What are the minium configuration to make comunication between
+	2 device using IP address ?
+A-	Each device on an IP network requires 3 different pieces of information
+	in order to correctly communicate with other devices on the network:
+	an IP address, a subnet mask, and a broadcast address.
+
+Q.	How IP routing work ?
+A-	It work thanks to table and routing protocol. Routing is the process
+	of selecting a path for traffic in a network or between or across
+	multiple networks.
+	To look futher more, search for OSPF, link state, static + dynamic
+	routing
+
