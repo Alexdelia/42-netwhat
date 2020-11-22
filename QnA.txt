@@ -6,7 +6,7 @@
 #    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/22 13:26:30 by adelille          #+#    #+#              #
-#    Updated: 2020/11/22 17:01:43 by adelille         ###   ########.fr        #
+#    Updated: 2020/11/22 17:12:31 by adelille         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -100,3 +100,9 @@ A-	It work thanks to table and routing protocol. Routing is the process
 	To look futher more, search for OSPF, link state, static + dynamic
 	routing
 
+Q.	What is a default gateway ?
+A-	The default path when no other route matches the destination IP address
+
+Q.	What is a port for an IP, and how it work ?
+A-	End point to connect a specific protocol for a specific service,
+	HTTP use port nb 80
