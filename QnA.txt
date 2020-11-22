@@ -6,12 +6,12 @@
 #    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/22 13:26:30 by adelille          #+#    #+#              #
-#    Updated: 2020/11/22 13:51:07 by adelille         ###   ########.fr        #
+#    Updated: 2020/11/22 15:22:44 by adelille         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-Q.	What is an IP adress ?
-A-	Internet Protocol adress, number unique to each device connected to a
+Q.	What is an IP address ?
+A-	Internet Protocol address, number unique to each device connected to a
 	computer network. Two main fonction: host or network interface
 	identification and location adressing.
 
@@ -21,8 +21,39 @@ A-	Tell wich portion of the IP is host and wich is network:
 	mask:		255.	255.	255.	0
 	network:	195.	68.		3.		0
 
-Q.	What is a broadcast adress ?
+Q.	What is a broadcast address ?
 A-	A network adress used to communicated with all device connected to host
 	if ip:		195.	68.		3.		4
 	mask:		255.	255.	255.	0
 	broadcast:	195.	68.		3.		255
+
+Q.	What's the difference between public and private IP address ?
+A-	Private IP address and public IP address are used to uniquely identify a
+	machine on the internet.
+	Private IP address is used with a local network and public IP address is
+	used outside the network.
+	Public IP address is provided by ISP, internet Service Provider.
+	Some diff:
+	Private:					Public:
+	free						has a cost
+	10.0.0.0 to 10.255.255.255	Except private IP, rest IP is public.
+	172.16.0.0 to	"
+	192.168.0.0 to	"
+	Example:					Example:
+	192.168.11.50				17.5.7.8
+
+Q.	What are the different class of IP ?
+A-	Class A:
+	Range:	1.0.0.0		to	126.0.0.0
+	Class B:
+	Range:	128.0.0.0	to	191.255.0.0
+	Class C:
+	Range:	192.0.0.0	to	223.225.225.0
+	Class D: used for multicasting
+	Range:	224.0.0.0	to	239.255.255.255
+	Class E: used for reseach purposes
+	range:	240.0.0.0	to	255.255.255.255
+
+Q.	What is TCP ?
+A-	Transmission Control Protocol, located in the Trasnport layer, it make
+	package of data and send it to the IP where it is reassemble to be used.
