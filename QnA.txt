@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    QnA.txt                                            :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: adelille <adelille@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/11/22 13:26:30 by adelille          #+#    #+#              #
+#    Updated: 2020/11/22 13:51:07 by adelille         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Q.	What is an IP adress ?
+A-	Internet Protocol adress, number unique to each device connected to a
+	computer network. Two main fonction: host or network interface
+	identification and location adressing.
+
+Q.	What is a subnet mask ?
+A-	Tell wich portion of the IP is host and wich is network:
+	if ip:		195.	68.		3.		4
+	mask:		255.	255.	255.	0
+	network:	195.	68.		3.		0
+
+Q.	What is a broadcast adress ?
+A-	A network adress used to communicated with all device connected to host
+	if ip:		195.	68.		3.		4
+	mask:		255.	255.	255.	0
+	broadcast:	195.	68.		3.		255
